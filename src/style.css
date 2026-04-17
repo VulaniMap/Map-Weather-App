@@ -1,0 +1,13 @@
+body {
+  font-family: "Urbanist", sans-serif;
+  background: #f9f7fa;
+  padding: 8px;
+}
+.weather-app {
+  background: #facbe6;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 30px 50px rgba (65, 50, 100, 0.08);
+}
