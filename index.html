@@ -15,21 +15,32 @@
   <body>
     <div class="weather-app">
       <header>
-        <form>
-          <input type="search" placeholder="Enter a city...." required />
-          <input type="submit" value="search" />
+        <form class="search-input">
+          <input
+            type="search"
+            placeholder="Enter a city...."
+            required
+            class="search-input"
+          />
+          <input type="submit" value="search" class="search-buttom" />
         </form>
       </header>
       <main>
-        <div>
-          <h1>Johannesburg</h1>
-          <p>
-            Tuesday 15:00, partly cloudy
-            <br />
-            Humidity: 50%, Wind: 5.22 km/h
-          </p>
+        <div class="current-weather">
+          <div>
+            <h1 class="current-city">Johannesburg</h1>
+            <p class="current-info">
+              Tuesday 15:00, partly cloudy
+              <br />
+              Humidity:<strong>50%</strong>, Wind:<strong> 5.22km/h</strong>
+            </p>
+          </div>
+          <div class="current-temparature">
+            <span class="current-temperature-icon">😶‍🌫️</span>
+            <span class="current-temperature-value">19</span>
+            <span class="current-temperature-unit">°C</span>
+          </div>
         </div>
-        <div>😶‍🌫️ 19&deg;C</div>
       </main>
       <footer>
         Coded by
