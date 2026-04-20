@@ -7,6 +7,7 @@ function updateWeather(response) {
   let wind = document.querySelector("#wind");
   let time = document.querySelector("#time");
   let date = new Date(response.data.time * 1000);
+  console.log(response.data);
 
   time.innerHTML = formatDate(date);
   wind.innerHTML = `${response.data.wind.speed}km/h`;
