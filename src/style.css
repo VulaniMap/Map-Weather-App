@@ -3,54 +3,19 @@ body {
   background: #f9f7fa;
   padding: 8px;
 }
-main {
-  padding: 30px 0;
-}
-header {
-  border-bottom: 1px solid rgb (221, 150, 221);
-  padding-bottom: 30px;
-}
 .weather-app {
   background: #facbe6;
   max-width: 600px;
   margin: 60px auto;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 30px 50px rgba (65, 50, 100, 0.08);
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
 }
-.current-weather {
-  display: flex;
-  justify-content: space-between;
+header {
+  border-bottom: 1px solid rgb(221, 150, 221);
+  padding-bottom: 30px;
 }
-.current-city {
-  font-size: 38px;
-  font-weight: 900;
-  line-height: 50px;
-  margin: 0;
-}
-.current-info strong {
-  color: #ff55b8;
-}
-.current-temperature {
-  font-size: 48px;
-}
-.current-temperature-icon {
-  position: relative;
-  top: -12px;
-  left: 10px;
-  font-size: 35px;
-}
-.current-temperature-value {
-  font-size: 75px;
-  font-weight: bold;
-}
-.current-temperature-unit {
-  font-size: 28px;
-  position: relative;
-  left: -10px;
-  top: -33px;
-}
-.search-input {
+.search-form-input {
   background-color: rgb(255, 224, 229);
   font-size: 18px;
   padding: 5px 20px;
@@ -65,13 +30,52 @@ header {
   color: #fff;
   border: none;
   border-radius: 5px;
-  padding: 20px;
+  padding: 5px 20px;
   line-height: 1;
 }
+main {
+  padding: 30px 0;
+}
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+}
+.current-city {
+  font-size: 38px;
+  line-height: 50px;
+  margin: 0;
+}
+.current-info {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.current-info strong {
+  color: #ff55b8;
+}
+.current-temperature {
+  display: inline-flex;
+}
+.current-temperature-icon {
+  width: 70px;
+  font-size: 70px;
+}
+.current-temperature-value {
+  font-size: 75px;
+  line-height: 75px;
+  font-weight: bold;
+}
+.current-temperature-unit {
+  font-size: 28px;
+  margin-top: 5px;
+}
 footer {
-  border-top: 1px solid rgb (221, 150, 221);
+  border-top: 1px solid rgb(221, 150, 221);
   text-align: center;
   font-size: 14px;
-  padding: 15px 0 0 0;
+  padding: 32px 0 0 0;
   color: #2c2b2e66;
+}
+a {
+  color: #0b0b0b;
 }

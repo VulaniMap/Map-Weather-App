@@ -24,7 +24,7 @@
             class="search-form-input"
             id="search-form-input"
           />
-          <input type="submit" value="Search" class="search-buttom" />
+          <input type="submit" value="search" class="search-button" />
         </form>
       </header>
       <main>
@@ -34,19 +34,14 @@
             <p class="current-info">
               <span id="time"></span>,<span id="description"></span>
               <br />
-              Humidity:<strong id="humidity"></strong>, Wind:<strong
-                id="wind"
-              ></strong>
+              Humidity: <strong id="humidity"></strong>, Wind:
+              <strong id="wind"></strong>
             </p>
           </div>
           <div class="current-temparature">
-            <img
-              src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png "
-              class="current-temperature-icon"
-            />
-
-            <span class="current-temperature-value" id="value"></span>
-            <span class="current-temperature-unit">°C</span>
+            <div id="icon"></div>
+            <div class="current-temperature-value" id="value"></div>
+            <div class="current-temperature-unit">°C</div>
           </div>
         </div>
       </main>
