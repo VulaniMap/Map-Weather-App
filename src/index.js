@@ -10,8 +10,6 @@ function updateWeather(response) {
   let icon = document.querySelector("#icon");
   icon.innerHTML = `<img src="${response.data.condition.icon_url}" class="current-temperature-icon"/>`;
 
-  console.log(response.data);
-
   time.innerHTML = formatDate(date);
   wind.innerHTML = `${response.data.wind.speed}km/h`;
   humidity.innerHTML = `${response.data.temperature.humidity}%`;
